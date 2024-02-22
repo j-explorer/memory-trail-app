@@ -1,0 +1,19 @@
+#menu{
+  display:flex;
+  flex-direction: column;
+  grid-area: 3/16/10/16;
+  z-index:1;
+}
+
+.menu-button{
+ height:10vh;
+ border:1px solid black;
+}
+
+#first-menu-button{
+  border-top-left-radius: 15px;
+}
+
+#last-menu-button{
+  border-bottom-left-radius: 15px;
+}
