@@ -7,7 +7,7 @@ const LocationButton = () => {
 return (
 
     <button className='button' id='location-button'>
-      Find my location
+      Find me
     </button>
   
 );
