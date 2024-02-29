@@ -1,19 +1,69 @@
-#menu{
+#slider{
+  grid-area: 8/1/16/17;
   display:flex;
   flex-direction: column;
-  grid-area: 3/16/10/16;
-  z-index:1;
+  justify-content: space-between;
+  overflow-x: auto;
+  overflow-y: auto;
+  background-color: #F7F6F6;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0px 0px 20px 0px #000;
+  z-index:2;
 }
 
-.menu-button{
- height:10vh;
- border:1px solid black;
+#slider-top{
+border-radius: 20px 20px 0px 0px;
+height: 3vh;
 }
 
-#first-menu-button{
-  border-top-left-radius: 15px;
+#location-icons{
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top:-55px;
+height: 8vh;
 }
 
-#last-menu-button{
-  border-bottom-left-radius: 15px;
+.icons{
+  display: flex;
+  justify-content: center;
+  height:5vh;
+  width:20%;
 }
+
+#favorite-icon,
+#delete-icon{
+  height:4.3vh;
+}
+
+#visited-icon{
+  height:4vh;
+}
+
+#menu{
+display:flex;
+justify-content: space-between;
+overflow-x: auto;
+border: 1px solid #CECECE;
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+margin-top:-55px;
+height: 8vh;
+}
+
+.menu-items{
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+  height:8vh;
+  width:30%;
+}
+
+#voice-recordings{
+  width:35%;
+}
+
+#gallery{
+  margin-top:-55px;
+  height: 23vh;
+}
+
